@@ -1,3 +1,5 @@
+// using techniques from lecture
+
 var fact = [];
 fact[0] = 1;
 
