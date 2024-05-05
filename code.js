@@ -1,8 +1,5 @@
 // using techniques from lecture
 
-var fact = [];
-fact[0] = 1;
-
 function factorial(n) {
     if(n === 0)
     {
@@ -22,12 +19,7 @@ function e(n) {
 
     for (var i = 0; i <= n; i++)
     {
-        if (fact[i] === undefined)
-        {
-            fact[i] = factorial(i);
-        }
-
-        result = result + (1 / fact[i]);
+        result = result + (1.0 / factorial(i));
     }
 
     // repeated work:
