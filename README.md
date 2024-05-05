@@ -18,3 +18,7 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+Runtime: $\Theta (n)$
+
+Reasoning: The e(n) function iteratively traverses to the size of the input n
