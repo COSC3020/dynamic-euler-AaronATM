@@ -1,14 +1,5 @@
 // using techniques from lecture
 
-function factorial(n) {
-    if(n === 0)
-    {
-        return 1;
-    }
-
-    return n * factorial(n - 1);
-}
-
 function e(n) {
     var result = 1, tmp = 1;
 
